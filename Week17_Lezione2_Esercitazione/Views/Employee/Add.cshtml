@@ -1,0 +1,31 @@
+﻿<form asp-controller="Employee" asp-action="Add" method="post">
+    <div class="mb-3">
+        <label for="formControlNome" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="formControlNome" name="nome" placeholder="Inserisci il nome">
+    </div>
+    <div class="mb-3">
+        <label for="formControlCognome" class="form-label">Cognome</label>
+        <input type="text" class="form-control" id="formControlCognome" name="cognome" placeholder="Inserisci il cognome">
+    </div>
+    <div class="mb-3">
+        <label for="formControlIndirizzo" class="form-label">Indirizzo</label>
+        <input type="text" class="form-control" id="formControlIndirizzo" name="indirizzo" placeholder="Inserisci l'indirizzo'">
+    </div>
+    <div class="mb-3">
+        <label for="formControlCF" class="form-label">Codice Fiscale</label>
+        <input type="text" class="form-control" id="formControlCF" name="codiceFiscale" placeholder="Inserisci il Codice Fiscale">
+    </div>
+    <div class="mb-3">
+        <label for="formControlConiugato" class="form-label">Stato Civile (Coniugato Y/N)</label>
+        <input type="checkbox" class="form-check-input" name="isConiugato" id="formControlConiugato">
+    </div>
+    <div class="mb-3">
+        <label for="formControlFigli" class="form-label">Figli a carico</label>
+        <input type="number" class="form-control" id="formControlFigli" name="figliACarico" placeholder="Inserisci il numero">
+    </div>
+    <div class="mb-3">
+        <label for="formControlMansione" class="form-label">Mansione</label>
+        <input type="text" class="form-control" id="formControlMansione" name="mansione" placeholder="Inserisci la mansione">
+    </div>
+    <button class="btn btn-success">Submit</button>
+</form>
