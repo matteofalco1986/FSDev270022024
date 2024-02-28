@@ -7,7 +7,7 @@
         public string? Cognome { get; set; }
         public string? Indirizzo { get; set; }
         public string? CodiceFiscale { get; set; }
-        public bool? IsConiugato { get; set; }
+        public bool IsConiugato { get; set; }
         public int? FigliACarico{ get; set; }
         public string? Mansione { get; set; }
 

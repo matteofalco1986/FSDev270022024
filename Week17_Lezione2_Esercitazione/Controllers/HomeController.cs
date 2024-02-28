@@ -15,7 +15,7 @@ namespace Week17_Lezione2_Esercitazione.Controllers
 
         public IActionResult Index()
         {
-            return View(StaticDb.GetEmployees());
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -2,7 +2,7 @@
 
 namespace Week17_Lezione2_Esercitazione.Models
 {
-    public static class StaticDb
+    public class StaticDb
     {
         public static int _maxId = 2;
         private static List<Employee> _employees = [
@@ -15,10 +15,11 @@ namespace Week17_Lezione2_Esercitazione.Models
             return _employees;
         }
 
-        public static Employee Add(string nome, string cognome, string indirizzo, string codiceFiscale, bool isConiugato, int figliACarico, string mansione)
+        public static Employee Add(Employee employee)
         {
             _maxId++;
-            var employee = new Employee() { Id = _maxId, Nome = nome, Cognome = cognome, Indirizzo = indirizzo, CodiceFiscale = codiceFiscale, IsConiugato = isConiugato, FigliACarico = figliACarico, Mansione = mansione};
+            employee.Id = _maxId;
+            _employees.Add(employee);
             return employee;
         }
     }

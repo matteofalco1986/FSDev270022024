@@ -28,3 +28,4 @@
 \\Mac\Home\Documents\Epicode\Week17_Lezione2_Esercitazione\Week17_Lezione2_Esercitazione\obj\Debug\net8.0\Week17_Lezione2_Esercitazione.pdb
 \\Mac\Home\Documents\Epicode\Week17_Lezione2_Esercitazione\Week17_Lezione2_Esercitazione\obj\Debug\net8.0\Week17_Lezione2_Esercitazione.genruntimeconfig.cache
 \\Mac\Home\Documents\Epicode\Week17_Lezione2_Esercitazione\Week17_Lezione2_Esercitazione\obj\Debug\net8.0\ref\Week17_Lezione2_Esercitazione.dll
+\\Mac\Home\Documents\Epicode\Week17_Lezione2_Esercitazione\Week17_Lezione2_Esercitazione\obj\Debug\net8.0\Week17_Lezione2_Esercitazione.sourcelink.json
